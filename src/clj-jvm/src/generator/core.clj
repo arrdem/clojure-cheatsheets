@@ -1083,7 +1083,7 @@
 
 
 (def grimoire-base-url
-  (str "http://conj.io/store/v0/org.clojure/clojure/latest/clj/"))
+  (str "http://conj.io/store/v1/org.clojure/clojure/latest/clj/"))
 
 (defn symbol-url-pairs-for-whole-namespaces [link-target-site]
   (apply concat
